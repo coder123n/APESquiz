@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$("#def1").hide();
+	$("#vocab1").click(function(){
+		$("#def1").toggle();
+	});
+	//$("#one").click(function(){
+		//$(".hide").toggle();
+		//$("img").show();
+	//});
+});
