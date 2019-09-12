@@ -1,3 +1,16 @@
 body{
-    background-color:rgb(80,210,250);
+    background-color:rgb(0,180,200);
 }
+h1{
+	text-shadow: 3px 2px rgb(200,200,200);
+}
+img{
+	border-style: double;
+	display: block;
+	margin: auto;
+}
+#vocch{text-align: center;}
+#ch1{ display:none; text-align: center;}
+#ch2{ display:none; text-align: center;}
+#voc1{ display:none; text-align: center;}
+#voc2{ display:none; text-align: center;}
