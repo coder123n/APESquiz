@@ -3,6 +3,7 @@ $(document).ready(function(){
 		$("#ch1").toggle();
 		$("#ch2").toggle();
 		$("#ch3").toggle();
+		$("#ch4").toggle();
 	});
 	$("#ch1").click(function(){
 			$("#voc1").toggle();
@@ -13,38 +14,10 @@ $(document).ready(function(){
 	$("#ch3").click(function(){
 			$("#voc3").toggle();
 	});
-	$("#def1").hide();
-	$("#def2").hide();
-	$("#def3").hide();
-	$("#def4").hide();
-	$("#def5").hide();
-	$("#def6").hide();
-	$("#def7").hide();
-	$("#def8").hide();
-	$("#def9").hide();
-	$("#def10").hide();
-	$("#def11").hide();
-	$("#def12").hide();
-	$("#def13").hide();
-	$("#def14").hide();
-	$("#def15").hide();
-	$("#def16").hide();
-	$("#def17").hide();
-	$("#def18").hide();
-	$("#def19").hide();
-	$("#def20").hide();
-	$("#def21").hide();
-	$("#def22").hide();
-	$("#def23").hide();
-	$("#def24").hide();
-	$("#def25").hide();
-	$("#def26").hide();
-	$("#def27").hide();
-	$("#def28").hide();
-	$("#def29").hide();
-	$("#def30").hide();
-	$("#def31").hide();
-	$("#def32").hide();
+	$("#ch4").click(function(){
+			$("#voc4").toggle();
+	});
+	$(".def").hide();
 	$("#vocab1").click(function(){
 		$("#def1").toggle();
 	});
@@ -140,6 +113,18 @@ $(document).ready(function(){
 	});
 	$("#vocab32").click(function(){
 		$("#def32").toggle();
+	});
+	$("#vocab33").click(function(){
+		$("#def33").toggle();
+	});
+	$("#vocab34").click(function(){
+		$("#def34").toggle();
+	});
+	$("#vocab35").click(function(){
+		$("#def35").toggle();
+	});
+	$("#vocab36").click(function(){
+		$("#def36").toggle();
 	});
 	//$("#one").click(function(){
 		//$(".hide").toggle();
